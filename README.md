@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# React Native Personal Portfolio App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+/**
+ * Course: MAD201 Assignment 4
+ * Student:Ramandeep Singh
+ * Student ID: A00194321
+ */
 
-## Get started
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Screens](#screens)
+- [Setup & Installation](#setup--installation)
+- [Running the App](#running-the-app)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Project Overview
+This React Native project creates a simple personal portfolio app built with Expo, showcasing a user's profile, projects, and contact links. The app demonstrates multi-screen navigation using React Navigation, reusable components, and styling with Flexbox and StyleSheet.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Features
+- Multi-screen navigation (Home, Projects, Contact)
+- Core React Native components usage: View, Text, Image, Button, ScrollView, TouchableOpacity
+- Well-organized layouts with Flexbox
+- Reusable project card component
+- Contact page with icons and clickable links
+- Easy extendability for adding more projects or contact methods
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Screens
+- **Home Screen:** Displays user info and a button to navigate to Projects.
+- **Projects Screen:** Shows a list of projects with titles and descriptions, using cards.
+- **Contact Screen:** Provides contact options with icons and links for LinkedIn, GitHub, and Email.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Setup & Installation
+### Prerequisites:
+- Node.js and npm installed
+- Expo CLI installed globally (`npm install -g expo-cli`)
+- Basic knowledge of React Native and Expo
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Installation:
+1. Clone this repository or copy the project files into your workspace.
+2. Navigate into your project directory:
